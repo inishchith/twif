@@ -36,10 +36,12 @@ def write_to_file(gif_url, file_path):
     f.close()
 
 
-def get_gif(FILE_PATH, token, n_gifs=5):
+def get_gif(FILE_PATH, token, n_gifs=5, choose = False):
     gifs = [gif for gif in giphy.search(token, limit=n_gifs) if gif.filesize < MAX_FILE_SIZE]
     if gifs:
         index = random.randint(0, len(gifs)-1)
+        if choose:
+            index = 0
         url = gifs[index].media_url
         write_to_file(gif_url=url, file_path=FILE_PATH)
         return True

@@ -60,7 +60,7 @@ class Listener(StreamListener):
 
                 for gram in two_grams:
                     token = " ".join(gram)
-                    found = get_gif(FILE_PATH, token)
+                    found = get_gif(FILE_PATH, token, choose = True)
                     if found:
                         # if len(tagged_users) + len(token) < TWEET_LENGTH:
                         #     tagged_users += "#" + tokens[tag][0]
@@ -70,7 +70,7 @@ class Listener(StreamListener):
                 if not found:
                     get_gif(FILE_PATH, "sorry", n_gifs=20)
             else:
-                get_gif(FILE_PATH, " ".join(all_tokens))
+                get_gif(FILE_PATH, " ".join(all_tokens), choose = True)
 
             print(tagged_users)
             api.update_with_media(status=tagged_users, 
@@ -101,7 +101,7 @@ def joke_trigger():
             response_tweet = joke[:240] + "..." + " - " + handle
         
         if tag:
-            get_gif(FILE_PATH, tag)
+            get_gif(FILE_PATH, tag, choose = True)
             api.update_with_media(status=response_tweet, 
                                   filename=FILE_PATH)
         else:
