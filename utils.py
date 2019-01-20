@@ -1,11 +1,12 @@
-import random
-import config
-import requests
 import re
+import random
 
+import requests
 import giphypop
 import nltk
 import spacy
+
+import config
 
 MAX_FILE_SIZE = 3072 * 1024
 
@@ -17,21 +18,16 @@ def is_valid_word(word):
 
 def process_tweet(tweet):
     mentions = re.findall(r'@([A-Za-z0-9_]+)', tweet)
-
     raw_tokens = re.sub(r"@([A-Za-z0-9_]+)", "", tweet)
     raw_tokens = raw_tokens.strip()
-
     raw_tokens = nlp(raw_tokens)
 
-    tokens = dict()
     all_tokens = []
     for token in raw_tokens:
-        all_tokens.append(token.text)
         if not nlp.vocab[token.text.lower()].is_stop and is_valid_word(token.text) and token.tag_ in ["NN", "NNS", "NNP", "VB"]:
-            tokens[token.tag_] = tokens.get(token.tag_, [])
-            tokens[token.tag_].append(token.text)
+            all_tokens.append(token.text)
 
-    return mentions, tokens, all_tokens
+    return mentions, all_tokens
 
 
 def write_to_file(gif_url, file_path):

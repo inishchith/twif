@@ -1,17 +1,18 @@
 import random
 import time
 
+import requests
 import atexit
 from apscheduler.schedulers.background import BackgroundScheduler
+from nltk import ngrams
 import tweepy
 from tweepy import Stream
 from tweepy.streaming import StreamListener
 
-import requests
 import config
 from utils import process_tweet, get_gif
 
-TWEET_LENGTH = 240
+TWEET_LENGTH = 240      # - GIF size
 USERNAME = "imTwiif"
 BLACKLISTED_IDS = requests.get("https://raw.githubusercontent.com/MikeNGarrett/twitter-blacklist/master/list.json").json()
 BACKOFF_TIME = 2
@@ -31,8 +32,7 @@ class Listener(StreamListener):
         tweetText = tweet.text
         tweetFrom = tweet.user.screen_name
 
-        print(tweetId, tweetFrom, tweetText)
-        mentions, tokens, all_tokens = process_tweet(tweetText)
+        mentions, all_tokens = process_tweet(tweetText)
 
         mentions.append(tweetFrom)
         if USERNAME in mentions:
@@ -41,8 +41,6 @@ class Listener(StreamListener):
             mentions.remove(USERNAME.lower())
         mentions = set(mentions)
 
-        print(mentions, tokens)
-
         tagged_users = ""
         for mention in mentions:
             user = api.get_user(screen_name=mention)
@@ -50,25 +48,33 @@ class Listener(StreamListener):
                 if len(tagged_users) + len(mention) <= TWEET_LENGTH:
                     tagged_users += "@" + mention + " "
 
-        print(tagged_users)
         if tagged_users:
             if len(all_tokens) > 2:
                 # Term search .get(1) : NNP -> NN -> NNS -> VB
+
+                two_grams = list(ngrams(all_tokens, 2))
+                # three_grams = list(ngrams(all_tokens, 3))
                 found = False
-                for tag in POS_TAGS:
-                    if tokens.get(tag):
-                        found = get_gif(FILE_PATH, tokens[tag][0])
-                        if found:
-                            if len(tagged_users) + len(tokens[tag][0]) < TWEET_LENGTH:
-                                tagged_users += "#" + tokens[tag][0]
-                            break
+                print(two_grams)
+
+                for gram in two_grams:
+                    token = " ".join(gram)
+                    found = get_gif(FILE_PATH, token)
+                    if found:
+                        # if len(tagged_users) + len(token) < TWEET_LENGTH:
+                        #     tagged_users += "#" + tokens[tag][0]
+                        break    
+
+                # Still not :()
                 if not found:
                     get_gif(FILE_PATH, "sorry", n_gifs=20)
             else:
                 get_gif(FILE_PATH, " ".join(all_tokens))
 
-            api.update_with_media(
-                status=tagged_users, filename=FILE_PATH, in_reply_to_status_id=tweetId)
+            print(tagged_users)
+            api.update_with_media(status=tagged_users, 
+                                  filename=FILE_PATH, 
+                                  in_reply_to_status_id=tweetId)
         else:
             api.update_status("Hello darkness my friend.. " + tagged_users)
 
@@ -84,9 +90,7 @@ def joke_trigger():
     if request_data.status_code == 200:
         jokes = request_data.json()
         n_jokes = len(jokes)
-
         pick = random.randint(0, n_jokes - 1)
-
         joke, handle, tag = jokes[pick]["joke"], jokes[pick]["twitter_handle"], jokes[pick]["tag"]
 
         response_tweet = joke
@@ -95,17 +99,20 @@ def joke_trigger():
         elif len(joke) > TWEET_LENGTH:
             response_tweet = joke[:240] + "..." + " - " + handle
         
-        print(joke,tag,response_tweet)
         if tag:
             get_gif(FILE_PATH, tag)
-            api.update_with_media(status=response_tweet, filename=FILE_PATH)
+            api.update_with_media(status=response_tweet, 
+                                  filename=FILE_PATH)
         else:
             api.update_status(response_tweet)
+
     else:
         api.update_status("GitHub be like cats ..")
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(func=joke_trigger, trigger="interval", seconds=3600)
+scheduler.add_job(func=joke_trigger, 
+                  trigger="interval", 
+                  seconds=3600)
 scheduler.start()
 
 print("STREAMING.. ")
