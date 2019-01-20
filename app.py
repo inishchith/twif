@@ -49,13 +49,13 @@ class Listener(StreamListener):
                     tagged_users += "@" + mention + " "
 
         print(tagged_users, all_tokens)
+        found = False
         if tagged_users:
             if len(all_tokens) > 2:
                 # Term search .get(1) : NNP -> NN -> NNS -> VB
 
                 two_grams = list(ngrams(all_tokens, 2))
                 # three_grams = list(ngrams(all_tokens, 3))
-                found = False
                 print(two_grams)
 
                 for gram in two_grams:
@@ -67,11 +67,12 @@ class Listener(StreamListener):
                         break    
 
                 # Still not :()
-                if not found:
-                    get_gif(FILE_PATH, "sorry", n_gifs=20)
-            else:
+            elif len(all_tokens):
+                found = True
                 get_gif(FILE_PATH, " ".join(all_tokens), choose = True)
 
+            if not found:
+                get_gif(FILE_PATH, "sorry", n_gifs=20)
             print(tagged_users)
             api.update_with_media(status=tagged_users, 
                                   filename=FILE_PATH, 
