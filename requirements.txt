@@ -1,0 +1,6 @@
+nltk==3.4
+tweepy==3.7.0
+requests==2.21.0
+giphypop==0.3
+spacy==2.0.18
+apscheduler==3.5.3
