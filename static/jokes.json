@@ -1,0 +1,753 @@
+[{
+    "joke": "Jeff Dean proved that P=NP when he solved all NP problems in polynomial time on a whiteboard.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Jeff Dean's PIN is the last 4 digits of pi.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "When Jeff gives a seminar at Stanford, it's so crowded Don Knuth has to sit on the floor. (TRUE)",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Jeff Dean once bit a spider, the spider got super powers and C++ readability",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Once, in early 2002, when the index servers went down, Jeff Dean answered user queries manually for two hours. Evals showed a quality improvement of 5 points.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Jeff Dean got promoted to level 11 in a system where max level is 10. (True.)",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Google Search was Jeff Dean's Noogler Project",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Jeff Dean has punch card readability.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean puts his pants on one leg at a time, but if he had more than two legs, you would see that his approach is actually O(log n)",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "Jeff Dean acquired Sawzall readability after writing 58 lines of Sawzall code. As part of his readability review, he pointed out a flaw in the style guide which was promptly corrected by the reviewer.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Sanjay once asked Jeff Dean if he could keep the entire web in his memory. Due to the noise from his keyboard cooling fan, Jeff Dean misheard slightly and wrote Mustang instead of simply answering \"Yes\".",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Jeff Dean compiles and runs his code before submitting, but only to check for compiler and CPU bugs.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Unsatisfied with constant time, Jeff Dean created the world's first O(1/n) algorithm.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean has binary readability.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean has binary writability.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "When Jeff Dean goes on vacation, production services across Google mysteriously stop working within a few days. This is actually true.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "Jeff Dean once shifted a bit so hard it ended up on another computer.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "During his own Google interview, Jeff Dean was asked the implications if P=NP were true. He said \"P = 0 or N = 1.\" Then, before the interviewer had even finished laughing, Jeff examined Google's public certificate and wrote the private key on the whiteboard.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "You use 10% of your brain. The other 90% is running one of Jeff's mapreduce jobs.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "Jeff Dean's resume lists the things he hasn't done; it's shorter that way.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "To Jeff Dean, \"NP\" means \"No Problemo\".",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Jeff Dean wrote an O(n^2) algorithm once. It was for the Traveling Salesman Problem.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "You don't explain your work to Jeff Dean. Jeff Dean explains your work to you.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Jeff Dean's resume has so many accomplishments, it has a table of contents.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean was forced to invent asynchronous APIs one day when he optimized a function so that it returned before it was invoked.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "The rate at which Jeff Dean produces code jumped by a factor of 40 in late 2000 when he upgraded his keyboard to USB2.0.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "When Jeff Dean designs software, he first codes the binary and then writes the source as documentation.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Jeff Dean's Peer Review is what got Larry promoted to CEO.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "When God said: \"Let there be light!\", Jeff Dean was there to do the code review.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "When Graham Bell invented the telephone, he saw a missed call from Jeff Dean",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Compilers don't warn Jeff Dean. Jeff Dean warns compilers.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Jeff Dean doesn't exist, he's actually an advanced AI created by Jeff Dean.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean's IDE doesn't do code analysis, it does code appreciation.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Jeff Dean doesn't use ECC memory. He anticipates cosmic rays and uses them to improve performance.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Jeff Dean once failed a Turing test when he correctly identified the 203rd Fibonacci number in less than a second.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "Jeff Dean invented Bigtable so that he would have a place to send his weekly snippets.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "On the zeroth day, Jeff Dean created God.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Jeff Dean once implemented a web server in a single printf() call. Other engineers added thousands of lines of explanatory comments but still don't understand exactly how it works. Today that program is known as GWS.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "When Jeff has an ergonomic evaluation, it is for the protection of his keyboard.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean can beat you at connect four. In three moves.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean invented BigTable because his resume was too big to fit anywhere else.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean took the bite out of Apple's logo.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Chuck Norris can kill you. Jeff Dean can kill -9 you.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Jeff Dean can parse HTML with a regular expression...correctly.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "When Jeff has trouble sleeping, he Mapreduces sheep.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "When Jeff Dean fires up the profiler, loops unroll themselves in fear.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "When your code has undefined behavior, you get a seg fault and corrupted data. When Jeff Dean's code has undefined behavior, a unicorn rides in on a rainbow and gives everybody free ice cream.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "Jeff doesn't sleep, he just sends SIGSUSPEND to the universe.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff got Java readability with only 8 lines of code",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Jeff Dean can instantiate abstract classes.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "gcc -O4 sends your code to Jeff Dean for a complete rewrite.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Jeff can recite 20,000 digits of pi in 5 hours. He doesn't remember them; he just recomputes them on the fly using only O(log n) space.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Jeff Dean remembers only one password. For each site, he concatenates it with the site name, computes its SHA-256 hash, and then types the result.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Jeff Dean is still waiting for mathematicians to discover the joke he hid in the digits of PI.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "There is no 'Ctrl' key on Jeff Dean's keyboard. Jeff Dean is always in control.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean was born on December 31, 1969 at 11:48 PM. It took him twelve minutes to implement his first time counter.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "When Jeff Dean says \"Hello World\", the world says \"Hello Jeff\".",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Jeff Dean can get 1s out of /dev/zero.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Jeff Dean simply walks into Mordor.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Jeff Dean spent some 20% time on an AI project. That produced Urs Hoelzle.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "Google once had to move out of a datacenter after Jeff Dean accidentally compressed the index so densely that a black hole was formed.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Jeff starts his programming sessions with \"cat > /dev/mem\".",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "The speed of light in a vacuum used to be about 35 mph. Then Jeff Dean spent a weekend optimizing physics.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "When Jeff Dean sends you a code review, it's because he thinks there's something in it you should learn.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "Jeff Dean does not sleep(), he wait()s.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "Jeff Dean invented MapReduce so he could sort his fan mail.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "When Jeff Dean listens to mp3s, he just cats them to /dev/dsp and does the decoding in his head.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Once Jeff Dean ordered a list, and the list obeyed him.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Chuck Norris is Jeff Dean's 20% project.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "When your code is killed by SIGJEFF, it never runs again.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Jeff Dean's calendar goes straight from March 31st to April 2nd; no one fools Jeff Dean.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Jeff Dean never has the wrong number; you have the wrong phone.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Jeff Dean has exactly two keys on his keyboard: \"0\" and \"1.\"",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Errors treat Jeff Dean as a warning.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Cricket matches used to take 5 days, until Jeff optimized them.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Jeff Dean's watch displays seconds since January 1st, 1970. He is never late.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Jeff's code is so fast the assembly code needs three HALT opcodes to stop it.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Emacs' preferred editor is Jeff Dean.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Google: it's basically a Jeff Dean's side project.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Jeff Dean has to unoptimize his code so that reviewers believe it was written by a human.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Websearch is just a large unittest Jeff wrote for his real app.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Jeff Dean doesn't need speakers or headphones. He just types \"cat *.mp3\", glances at the screen, and his brain decodes the music in the background while he works.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Jeff Dean has Perl Readability. (TRUE)",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Jeff Dean quicksorts his laundry.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "The OR ELSE construct had to be removed from ISO C after Jeff Dean used it in Mustang and kernels started panicking in terror.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Jeff Dean is not afraid of evil constructors. They are afraid of him.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Jeff Dean doesn't write bugs, just features you are unable to understand.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "The 11th commandment is ?Thou shalt not piss off Chuck Norris? This commandment is rarely enforced, as it is impossible to accomplish.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "git pull a day keeps the conflicts away",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "If you have anything staged, commit now or stash forever",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "git-hg: Don't you know that's poison?",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "git stash drop: Hey! That stuff's expensive.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "Remember to keep your porcelain clean",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "git-fetch: no training required",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Commit early, commit often. A tip for version controlling - not for relationships",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "Fork by yourself, shame on you. Fork with a friend, now we're getting somewhere.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "A branch, a tag, and a reflog walk into a bar. The bartender says, \"What is this, some sort of rebase?\"",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Why did the commit cross the rebase? To git to the other repo",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "You can checkout any time you like, but you can never diff.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "git-sweep: It's brooms, all the way down.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "I kissed a git, and I liked it. I hope my repo don't mind it.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "The git that keeps on giving.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "git-svn: now you have two problems.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "CVS Survivors Meetings are Tuesdays at 9",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Beware the HEADless horseman of gitty hollow",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Be careful not to step in the git-gui",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Ring around the repo, pockets full of plumbing, objects, objects, we all commit.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "git-nom --omnom: eats all your tasty code",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Gits N' Roses: Now with more git cherry-pop, git freebase, and starring git Slash!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "Nurture your git-twigs and they will grow into a full branch",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Knock knock. Who's there? Git. Git-who? Sorry, 'who' is not a git command - did you mean 'show'?",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "We're gits of the round table! | We eat ham and jam and commitalot! | On second thought, let's not go to #gitalot. It is a silly place.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Be careful when rewriting history. It may push you to use the dark side of the --force",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "When you play the game of clones, you merge or you reset --hard.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "git-clone has nothing to do with reproduction. So stop that.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "git: Multiplayer Notepad",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "It's big, it's heavy, it's wood! git-log, from BLAMMO!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Now with more indirect cycling giraffes!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "git-prune: not as tasty as git-cherry, but much better for you",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "git-fsck: think of the children",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Keep good care of your git-shell and your inner snail will thank you",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "git-daemon: the evil rises",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "git-bisect: No, not like that. Grow up.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "git-cherry-pick does not yield actual delicious cherries",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "Be careful not to remove the branch you're standing on",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "In Soviet Russia, git commits YOU!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "git: Committed for life",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "git happens",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "We can't stop here, this is git country!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "I bet you thought this was a joke. Nope, git-testa.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "May the forks be with you",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Wait for the git-beats --drop",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "git is one byte short of a four-letter word",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Yo dawg we heard you like commits so we put some commits in your tree so you can add submodules while you commit",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "What we push in life echoes in eternity",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "All those commits will be lost in time... Like tears in rain... Time to gc",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "git-bisect: The good, the bad and the... uhh... skip",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "git-stash: The sock drawer of version control",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "git-filter-branch: Hide your dirty laundry",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "git - control your forest of trees",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "git - subversion done right",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "This is not a joke, it's a commit.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "We're gits on the moon! We format our patches! But there ain't no stashes so we code bad branches and rebase our commits!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "git-cherry: the healthier snack",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "Be careful you don't get lost in gitland!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "diff in hell, SVNites!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "gitcoin: REWRITE A COMMIT, GO TO JAIL",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "git off!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Those who cannot --graph their branch are condemned to rebase it",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Once you go git, you never go back.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "This is not the greatest commit in the world, this is just a cherry-pick.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "You can store your code in it!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "Hadn't been for merge-eyed Joe, Ida been commited long time ago",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "git commit crim\u2026 PUT DOWN THAT GUN AND HANDS UP IN THE AIR!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "No, I'm gitticus!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "git-blame: ruining friendships since 2006",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "GitMan: Able to merge 8-headed octopoii in a single command! X-Ray vision of all code history!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "In Git we trust!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "all your rebase are belong to us",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "git request-pull: only legal in Nevada.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "git: where we dropped our trunks and all have masters",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "git: history is written by the committers.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Git gets easier once you get the basic idea that branches are homeomorphic endofunctors mapping submanifolds of a Hilbert space.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Ceci n'est pas une commit",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "git out of da choppah!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "DaftPunk.git: clone it, fetch it, merge it, push it; pull it, log it, cherry-pick it",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "Non nobis Domine, sed Git da gloriam!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Updates were rejected: use the --force",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "I git by with a little help from my friends",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "iGit 2.5 S: THE NEW GIT | MORE PERSONAL | MORE HIPSTER | THE MOST GIT SINCE GIT",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "Commits are not objects of love, and should not be judged by their size.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "Always make picking as sweet as the cherries, with gitvia.",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "where do SVN-Users keep their HEAD? ... in the trunk!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "Git can remember it for you wholesale",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "Git knows what you did last summer!",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "A commit a day keeps the mobs away",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hacker"
+}, {
+    "joke": "git-outhouse: when even plumbing commands are too nice",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "May the --force be with you",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "funny"
+}, {
+    "joke": "War is peace, freedom is slavery, ignorance is strength, svn is version control",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "Subversion to crimestop thoughtcrime and unperson Emmanuel Gitstein",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "The git-git-slide is fun to dance to, until it isn't",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "hackerman"
+}, {
+    "joke": "git gud",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "starters"
+}, {
+    "joke": "In case of fire: git commit, git push, leave the building",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "Don't forgit to bring a towel",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "laugh"
+}, {
+    "joke": "It's not that hard, you just need to git good",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "War is peace, freedom is slavery, ignorance is strength, git is version control",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}, {
+    "joke": "Don't let the walls cave in on you, git knows where your HEAD's at",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "programming"
+}, {
+    "joke": "What is the most loyal tool of a programmer? Git, because of its COMMITment",
+    "twitter_handle": "@nizzzzzo",
+    "tag": "algorithms"
+}]
