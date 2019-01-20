@@ -48,6 +48,7 @@ class Listener(StreamListener):
                 if len(tagged_users) + len(mention) <= TWEET_LENGTH:
                     tagged_users += "@" + mention + " "
 
+        print(tagged_users, all_tokens)
         if tagged_users:
             if len(all_tokens) > 2:
                 # Term search .get(1) : NNP -> NN -> NNS -> VB

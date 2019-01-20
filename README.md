@@ -2,8 +2,8 @@
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://media.giphy.com/media/241LfGhONZv5EWosVV/giphy.gif" alt="Twif-gif"></a>
 </p>
-<h3 align="center">🐦 Twif</h3>
-<p align="center"> I'll try to make you look funny <br> 
+<h3 align="center">🐦 Twif : finds gifs </h3>
+<p align="center"> Yet another bot on twitter. Tries to make you look funny <br> 
 </p>
 
 <hr>
@@ -13,13 +13,31 @@
     <img src="http://g.recordit.co/gQ6kLjQfMA.gif" width=275px>
 </div>
 
-#### Usage
+### What this does?
 
-- `@imtwiif < term > / < phrase >`
+<details>
+<summary>Read more</summary>
 
-#### Contributing
+- When you @imtwiif with a `term` or `phrase`
 
-- Add your joke [here](./static/jokes.json)
+  > Finds related GIFs -> Tweet!
+
+- Every 1 hour or so.
+  > Picks a joke from [this](<(./static/jokes.json)>) file -> Finds GIF as per `tag` -> Tweet! Tweet!
+
+#### Why did i build this?
+
+- Had some time to kill :stuck_out_tongue:
+
+</details>
+
+### Usage
+
+- [@imtwiif](https://twitter.com/@imtwiif) `< term > / < phrase >`
+
+### Contributing
+
+> Add your joke [here](./static/jokes.json)
 
 `eg.`
 
