@@ -16,15 +16,16 @@ giphy = giphypop.Giphy(api_key=config.GIPHY_KEY)
 def is_valid_word(word):
     return (re.search(r'^[a-zA-Z][a-z0-9A-Z\._]*$', word) is not None)
 
-def process_tweet(tweet):
+def process_data(tweet):
     mentions = re.findall(r'@([A-Za-z0-9_]+)', tweet)
     raw_tokens = re.sub(r"@([A-Za-z0-9_]+)", "", tweet)
-    raw_tokens = raw_tokens.strip()
-    raw_tokens = nlp(raw_tokens)
+    raw_tokens = raw_tokens.strip().split()
+    raw_tokens = [token.capitalize() for token in raw_tokens]
+    raw_tokens = nlp(" ".join(raw_tokens))
 
     all_tokens = []
     for token in raw_tokens:
-        if not nlp.vocab[token.text.lower()].is_stop and is_valid_word(token.text) and token.tag_ in ["NN", "NNS", "NNP", "VB"]:
+        if is_valid_word(token.text) and token.tag_ in ["NN", "NNS", "NNP", "VB"]:
             all_tokens.append(token.text)
 
     return mentions, all_tokens
@@ -49,4 +50,4 @@ def get_gif(FILE_PATH, token, n_gifs=5, choose = False):
     return False
 
 if __name__ == "__main__":
-    print(process_tweet("@imTwif @im_Twif , i need some coffee, cover-up"))
+    print(process_data("@imTwif @im_Twif , i need some coffee, cover-up"))

@@ -10,7 +10,7 @@ from tweepy import Stream
 from tweepy.streaming import StreamListener
 
 import config
-from utils import process_tweet, get_gif
+from utils import process_data, get_gif
 
 TWEET_LENGTH = 240      # - GIF size
 USERNAME = "imTwiif"
@@ -32,7 +32,7 @@ class Listener(StreamListener):
         tweetText = tweet.text
         tweetFrom = tweet.user.screen_name
 
-        mentions, all_tokens = process_tweet(tweetText)
+        mentions, all_tokens = process_data(tweetText)
 
         mentions.append(tweetFrom)
         if USERNAME in mentions:
@@ -52,12 +52,7 @@ class Listener(StreamListener):
         found = False
         if tagged_users:
             if len(all_tokens) > 2:
-                # Term search .get(1) : NNP -> NN -> NNS -> VB
-
-                two_grams = list(ngrams(all_tokens, 2))
-                # three_grams = list(ngrams(all_tokens, 3))
-                print(two_grams)
-
+                two_grams = list(ngrams(all_tokens, 2))              
                 for gram in two_grams:
                     token = " ".join(gram)
                     found = get_gif(FILE_PATH, token, choose = True)
@@ -101,12 +96,23 @@ def joke_trigger():
         elif len(joke) > TWEET_LENGTH:
             response_tweet = joke[:240] + "..." + " - " + handle
         
-        if tag:
-            get_gif(FILE_PATH, tag, choose = True)
-            api.update_with_media(status=response_tweet, 
-                                  filename=FILE_PATH)
-        else:
+        mentions, all_tokens = process_data(joke)
+        print(mentions, all_tokens)
+
+        found = False
+        two_grams = list(ngrams(all_tokens, 2))        
+        for gram in two_grams:
+            token = " ".join(gram)
+            found = get_gif(FILE_PATH, token, choose = True)
+            if found:
+                break    
+        if not found and not tag:
             api.update_status(response_tweet)
+        else:
+            if not found:
+                get_gif(FILE_PATH, tag, choose = False)
+            api.update_with_media(status=response_tweet, 
+                              filename=FILE_PATH)
 
     else:
         api.update_status("GitHub be like cats ..")
